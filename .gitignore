@@ -1,1 +1,36 @@
-node_modules
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional npm cache
+.npm/
+
+# Debug files
+*.local
+
+# VSCode settings (optional)
+.vscode/
+
+# Production build
+dist/
+build/
+
+# Coverage reports
+coverage/
+
+# Optional: PM2 logs
+pids
+*.pid
+*.seed
+*.pid.lock
